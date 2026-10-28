@@ -8,7 +8,7 @@
 
 A modern, full-stack resume builder that helps you create professional resumes, preview PDFs, download them, and send them by email.
 
-[🌐 Live Demo](https://resume-craft-ls6y.vercel.app) · [💻 GitHub Repository](https://github.com/mohitkpani/resume-craft) · [⚙️ Backend API](https://resume-craft-ghx8.onrender.com)
+[🌐 Live Demo](https://resume-craft-pink.vercel.app) · [💻 GitHub Repository](https://github.com/mohitkpani/resume-craft) · [⚙️ Backend API](https://resume-craft-ghx8.onrender.com)
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
@@ -72,11 +72,11 @@ With a clean green-and-mint interface, responsive layout, and light/dark themes,
 
 ## 🌐 Live Application
 
-| Service        | URL                                        |
-| -------------- | ------------------------------------------ |
-| 🚀 Frontend    | https://resume-craft-ls6y.vercel.app       |
-| ⚙️ Backend     | https://resume-craft-ghx8.onrender.com     |
-| 💻 Source Code | https://github.com/mohitkpani/resume-craft |
+| Service        | URL                                                                      |
+| -------------- | ------------------------------------------------------------------------ |
+| 🚀 Frontend    | [resume-craft-pink.vercel.app](https://resume-craft-pink.vercel.app)     |
+| ⚙️ Backend     | [resume-craft-ghx8.onrender.com](https://resume-craft-ghx8.onrender.com) |
+| 💻 Source Code | [mohitkpani/resume-craft](https://github.com/mohitkpani/resume-craft)    |
 
 > **Note:** The backend root URL may not display a webpage because the API is intended to serve application endpoints.
 
@@ -226,6 +226,6 @@ No license has been specified yet. Add a `LICENSE` file if you decide to distrib
 
 **Built with care using React and Spring Boot.**
 
-[⭐ Explore ResumeCraft](https://resume-craft-ls6y.vercel.app)
+[⭐ Explore ResumeCraft](https://resume-craft-pink.vercel.app)
 
 </div>
