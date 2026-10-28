@@ -9,22 +9,18 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class Config {
 
-    private final String frontendUrl = "http://localhost:5173";
-
     @Bean
     public WebMvcConfigurer corsConfigurer() {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/api/**")
-                        .allowedOrigins(frontendUrl)
+                registry.addMapping("/**")
+                        .allowedOrigins(
+                                "https://resume-craft-ls6y.vercel.app",
+                                "http://localhost:5173")
                         .allowedMethods(
-                                "GET",
-                                "POST",
-                                "PUT",
-                                "DELETE",
-                                "OPTIONS"
-                        )
+                                "GET", "POST", "PUT",
+                                "DELETE", "OPTIONS", "PATCH")
                         .allowedHeaders("*");
             }
         };
