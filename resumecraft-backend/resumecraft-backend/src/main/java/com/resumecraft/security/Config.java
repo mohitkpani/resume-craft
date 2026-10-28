@@ -16,7 +16,7 @@ public class Config {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
                         .allowedOrigins(
-                                "https://resume-craft-ls6y.vercel.app",
+                                "https://resume-craft-pink.vercel.app/",
                                 "http://localhost:5173")
                         .allowedMethods(
                                 "GET", "POST", "PUT",
