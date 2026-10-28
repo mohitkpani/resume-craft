@@ -66,6 +66,18 @@ function App() {
     setMessageType(type);
   }, []);
 
+  // Automatically dismiss success and error notifications after 3 seconds.
+  // The existing close button can still dismiss a notification immediately.
+  useEffect(() => {
+    if (!message) return undefined;
+
+    const timer = window.setTimeout(() => {
+      setMessage("");
+    }, 3000);
+
+    return () => window.clearTimeout(timer);
+  }, [message]);
+
   const change = (event) => {
     const { name, value } = event.target;
     setResume((previous) => ({ ...previous, [name]: value }));
