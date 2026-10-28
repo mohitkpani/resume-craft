@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 import "./App.css";
 
-const API = "http://localhost:8080/api/resume";
+const API = "https://resume-craft-ghx8.onrender.com/api/resume";
 
 const initialResume = {
   fullName: "",
